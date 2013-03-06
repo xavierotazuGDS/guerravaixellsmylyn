@@ -25,6 +25,36 @@ public class Tauler {
 	
 	public boolean ColocarVaixell(int y, int x, Vaixell v)
 	{
+		int incrX=0;
+		int incrY=0;
+		
+		switch (v.getOrientacio())
+		{
+			case V:
+				incrX=0;
+				incrY=1;
+				break;
+			case H:
+				incrX=1;
+				incrY=0;
+				break;
+		}
+
+		// Copiem el vaixell
+		int xPointer=x;
+		int yPointer=y;
+		
+		for(int i=0;i<v.getMida();++i)
+		{
+			casella[yPointer][xPointer]=Casella.VAIXELL;
+			yPointer+=incrY;
+			xPointer+=incrX;
+		}
+		
+		
+		
+		
+		return true;
 	}
 	
 	public Casella Tret(int x, int y)
