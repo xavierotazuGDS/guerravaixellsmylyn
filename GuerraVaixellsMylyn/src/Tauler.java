@@ -25,7 +25,7 @@ public class Tauler {
 	
 	public boolean ColocarVaixell(int y, int x, Vaixell v)
 	{
-		int incrX=0;
+		int incrX=0 ;
 		int incrY=0;
 		
 		switch (v.getOrientacio())
