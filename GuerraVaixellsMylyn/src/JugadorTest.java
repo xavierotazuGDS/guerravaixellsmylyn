@@ -1,6 +1,6 @@
 import junit.framework.TestCase;
 
-// comentari pel Bugget
+// comentari pel Buggett
 
 public class JugadorTest extends TestCase {
 
