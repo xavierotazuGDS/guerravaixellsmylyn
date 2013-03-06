@@ -1,4 +1,4 @@
-// mes canvis 
+// mes canvis per veure si funciona el issue a github
 public class Tauler {
 
 	int alc, ampl  ;
