@@ -28,7 +28,7 @@ public class Tauler {
 		int incrX=0 ;
 		int incrY=0;
 		
-		switch (v.getOrientacio() )
+		switch (v.getOrientacio()  )
 		{
 			case V:
 				incrX=0;
