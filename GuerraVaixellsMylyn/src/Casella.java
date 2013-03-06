@@ -1,4 +1,4 @@
 
 public enum Casella {
-	AIGUA, TOCAT, ENFONSAT
+	AIGUA, TOCAT, ENFONSATT
 }
