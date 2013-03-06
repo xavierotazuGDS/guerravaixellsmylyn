@@ -1,4 +1,4 @@
-
+// mes canvis 
 public class Tauler {
 
 	int alc, ampl;
