@@ -40,7 +40,7 @@ public class Tauler {
 				break;
 		}
 
-		// Aixo s'ha de comentar millor ... o no
+		// Aixo s'ha de comentar millor ... o noooo
 		// Copiem el vaixell
 		int xPointer=x;
 		int yPointer=y;
