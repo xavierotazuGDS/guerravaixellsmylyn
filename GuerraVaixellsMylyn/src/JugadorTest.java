@@ -9,7 +9,7 @@ public class JugadorTest extends TestCase {
 	}
 
 	protected void tearDown() throws Exception {
-		super.tearDown() ;
+		super.tearDown()  ;
 	}
 
 }
