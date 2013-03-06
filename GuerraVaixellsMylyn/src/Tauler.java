@@ -25,13 +25,13 @@ public class Tauler {
 	
 	public boolean ColocarVaixell(int y, int x, Vaixell v)
 	{
-		int incrX=0 ;
+		int incrX=0;
 		int incrY=0;
 		
-		switch (v.getOrientacio()  )
+		switch (v.getOrientacio())
 		{
 			case V:
-				incrX=0  ;
+				incrX=0;
 				incrY=1;
 				break;
 			case H:
@@ -40,6 +40,7 @@ public class Tauler {
 				break;
 		}
 
+		// Aixo s'ha de comentar millor
 		// Copiem el vaixell
 		int xPointer=x;
 		int yPointer=y;
